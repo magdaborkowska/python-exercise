@@ -1,0 +1,23 @@
+["Ellie", "Tim", "Matt"]
+#Create new list containing the first letter of each name
+
+answer = []
+for person in ["Elie", "Tim", "Matt"]:
+    answer.append(person[0])
+
+#LIST COMPREHENSION
+answer = [name[0] for name in ["Ellie", "Tim", "Matt"]]
+
+
+[1, 2, 3, 4, 5, 6]
+#Create new list containing all even values
+
+answer2 = []
+for num in [1, 2, 3, 4, 5, 6]:
+    if num % 2 == 0:
+        answer2.append(num)
+
+#LIST COMPREHENSION
+answer2 = [val for val in [1, 2, 3, 4, 5, 6] if val % 2 == 0]
+
+print(answer, answer2)
